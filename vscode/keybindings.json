@@ -1,0 +1,74 @@
+// Place your key bindings in this file to override the defaults
+[
+  // Terminal related
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  // {
+  //   "key": "ctrl+shift+c",
+  //   "command": "workbench.action.toggleActivityBarVisibility"
+  // },
+  // File Tree
+  // {
+  //   "key": "ctrl+e",
+  //   "command": "workbench.action.toggleSidebarVisibility",
+  // },
+  // {
+  //   "key": "ctrl+e",
+  //   "command": "workbench.files.action.focusFilesExplorer",
+  //   "when": "editorTextFocus"
+  // },
+  {
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+
+  // Pop up window
+  {
+    "key": "h",
+    "command": "editor.action.scrollLeftHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "j",
+    "command": "editor.action.scrollDownHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "k",
+    "command": "editor.action.scrollUpHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "l",
+    "command": "editor.action.scrollRightHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "alt+cmd+e",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+]
